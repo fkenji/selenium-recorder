@@ -1,0 +1,27 @@
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.0.5'
+
+    testCompile group: 'junit', name: 'junit', version: '4.8.2'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '1.9.0'
+    compile files('./lib/monte-cc.jar')
+}
+
+
+war {
+   from 'src/main/groovy'
+}
+
+task copyWar(type: Copy) {
+    from 'build/libs/selenium-recorder.war'
+    into '/opt/jetty/webapps'
+}
