@@ -1,5 +1,8 @@
 import br.com.seibzhen.VideoRecorder
 
 println "Stopping to record. . ."
-VideoRecorder.get().stopRecording();
+
+if (VideoRecorder.get().isRecording()) {
+    VideoRecorder.get().stopRecording();
+}
 println "Done."

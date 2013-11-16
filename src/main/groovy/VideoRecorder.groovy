@@ -22,8 +22,10 @@ class VideoRecorder {
     private static ScreenRecorder screenRecorder;
     private static VideoRecorder instance;
 
+    private boolean isRecording;
 
     private VideoRecorder() {
+        isRecording = false;
     }
 
     static def get() {
@@ -34,6 +36,8 @@ class VideoRecorder {
     }
 
     def startRecording() {
+
+        isRecording = true;
 
         GraphicsConfiguration gc = GraphicsEnvironment
                 .getLocalGraphicsEnvironment()
@@ -55,8 +59,11 @@ class VideoRecorder {
     }
 
     public void stopRecording() throws Exception {
+        isRecording = false;
         this.screenRecorder.stop();
     }
 
-
+    public boolean isRecording() {
+        return isRecording
+    }
 }

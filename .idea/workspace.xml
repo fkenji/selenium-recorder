@@ -7,15 +7,17 @@
     <file path="/build.gradle" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384642737324" ignored="false" />
     <file path="/RecorderTest.groovy" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384637070179" ignored="false" />
     <file path="/a.groovy" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384636994190" ignored="false" />
-    <file path="/VideoRecorder.groovy" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384639479105" ignored="false" />
+    <file path="/VideoRecorder.groovy" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384645475538" ignored="false" />
     <file path="/a.html" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384638150396" ignored="false" />
     <file path="/fragment.java" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384638230320" ignored="false" />
     <file path="/VideoRecorderTest.groovy" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384639816641" ignored="false" />
     <file path="/VideoServlet.groovy" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384639566377" ignored="false" />
     <file path="$PROJECT_DIR$/web/WEB-INF/web.xml" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384639075516" ignored="false" />
     <file path="/web.xml" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384639191161" ignored="false" />
-    <file path="/stop.groovy" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384639676997" ignored="false" />
+    <file path="/stop.groovy" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384645415177" ignored="false" />
     <file path="/README.md" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384643859129" ignored="false" />
+    <file path="/destroy.groovy" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384645549162" ignored="false" />
+    <file path="/Groovy Console" changelist="8cbd7d05-74ad-4659-8754-2382bf825575" time="1384644947063" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="24" selection-start="177" selection-end="177" vertical-scroll-proportion="0.31858408">
+            <state line="9" column="17" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,7 +109,7 @@
       <file leaf-file-name="VideoRecorder.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/VideoRecorder.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="18" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
+            <state line="65" column="20" selection-start="1913" selection-end="1913" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,7 +118,7 @@
       <file leaf-file-name="start.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/start.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="32" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+            <state line="5" column="23" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,7 +127,16 @@
       <file leaf-file-name="stop.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/stop.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="15" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+            <state line="6" column="1" selection-start="73" selection-end="156" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="destroy.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/destroy.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="72" selection-start="372" selection-end="372" vertical-scroll-proportion="0.32445922">
               <folding />
             </state>
           </provider>
@@ -305,13 +316,14 @@
         <option value="$PROJECT_DIR$/src/test/groovy/RecorderTest.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/VideoServlet.groovy" />
         <option value="$PROJECT_DIR$/src/main/resources/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/groovy/VideoRecorder.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/start.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/stop.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/br/com/seibzhen/VideoRecorderTest.groovy" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/groovy/stop.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/VideoRecorder.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/destroy.groovy" />
       </list>
     </option>
   </component>
@@ -473,6 +485,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium-recorder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium-recorder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium-recorder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium-recorder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium-recorder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium-recorder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -511,20 +577,7 @@
       <recent name="br.com.seibzhen" />
     </key>
   </component>
-  <component name="RunManager" selected="Groovy.gradle:clean jettyRun">
-    <configuration default="false" name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="selenium-recorder" />
-      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method>
-        <option name="Make" enabled="false" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Groovy.destroy">
     <configuration default="false" name="VideoRecorderTest.itShouldRecordWhenStarted" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -591,6 +644,17 @@
       <method>
         <option name="Make" enabled="false" />
       </method>
+    </configuration>
+    <configuration default="false" name="destroy" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="selenium-recorder" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/destroy.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy" />
+      <setting name="debug" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -765,19 +829,19 @@
       <item index="2" class="java.lang.String" itemvalue="Groovy.gradle:clean jettyRunWar" />
       <item index="3" class="java.lang.String" itemvalue="Groovy.clean build  copyWar" />
       <item index="4" class="java.lang.String" itemvalue="Groovy.gradle:build clean copyWar" />
-      <item index="5" class="java.lang.String" itemvalue="Groovy.build" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.VideoRecorderTest.itShouldRecordWhenStarted" />
-      <item index="7" class="java.lang.String" itemvalue="Groovy.gradle:build" />
-      <item index="8" class="java.lang.String" itemvalue="Groovy.gradle:jettyRun" />
-      <item index="9" class="java.lang.String" itemvalue="Groovy.gradle:clean" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.VideoRecorderTest.itShouldRecordWhenStarted" />
+      <item index="6" class="java.lang.String" itemvalue="Groovy.gradle:build" />
+      <item index="7" class="java.lang.String" itemvalue="Groovy.gradle:jettyRun" />
+      <item index="8" class="java.lang.String" itemvalue="Groovy.gradle:clean" />
+      <item index="9" class="java.lang.String" itemvalue="Groovy.destroy" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Groovy.gradle:clean" />
-        <item index="1" class="java.lang.String" itemvalue="Groovy.gradle:jettyRun" />
-        <item index="2" class="java.lang.String" itemvalue="Groovy.gradle:build" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.VideoRecorderTest.itShouldRecordWhenStarted" />
-        <item index="4" class="java.lang.String" itemvalue="Groovy.build" />
+        <item index="0" class="java.lang.String" itemvalue="Groovy.destroy" />
+        <item index="1" class="java.lang.String" itemvalue="Groovy.gradle:clean" />
+        <item index="2" class="java.lang.String" itemvalue="Groovy.gradle:jettyRun" />
+        <item index="3" class="java.lang.String" itemvalue="Groovy.gradle:build" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.VideoRecorderTest.itShouldRecordWhenStarted" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -836,7 +900,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977587" sideWeight="0.6705757" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6705757" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -846,6 +910,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.2867804" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.2867804" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -853,13 +918,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6705757" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32942432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.6705757" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32942432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -937,28 +1001,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="177" selection-end="177" vertical-scroll-proportion="0.31858408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/VideoRecorder.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/start.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/stop.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+        <state line="9" column="17" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -973,6 +1016,34 @@
     <entry file="file://$PROJECT_DIR$/src/test/groovy/br/com/seibzhen/VideoRecorderTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="28" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/start.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="23" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/stop.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="73" selection-end="156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/VideoRecorder.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="20" selection-start="1913" selection-end="1913" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/destroy.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="72" selection-start="372" selection-end="372" vertical-scroll-proportion="0.32445922">
           <folding />
         </state>
       </provider>
