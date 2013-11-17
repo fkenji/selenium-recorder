@@ -13,15 +13,21 @@ dependencies {
 
     testCompile group: 'junit', name: 'junit', version: '4.8.2'
     testCompile group: 'org.mockito', name: 'mockito-core', version: '1.9.0'
+    compile 'org.seleniumhq.selenium:selenium-server:2.37.1'
+    testCompile 'org.seleniumhq.selenium:selenium-java:2.37.1'
     compile files('./lib/monte-cc.jar')
 }
-
 
 war {
    from 'src/main/groovy'
 }
 
-task copyWar(type: Copy) {
+task copyWar(type: Copy, dependsOn:'war') {
     from 'build/libs/selenium-recorder.war'
     into '/opt/jetty/webapps'
+}
+
+task copyJar(type: Copy, dependsOn:'jar') {
+    from 'build/libs/selenium-recorder.jar'
+    into '/opt/selenium-server'
 }
