@@ -1,6 +1,6 @@
-build/**
+build/
 *.iml
-dist
-out
-.gradle/**
-.idea/**
+dist/
+out/
+.gradle/
+.idea/
