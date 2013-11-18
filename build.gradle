@@ -10,12 +10,15 @@ repositories {
 
 dependencies {
     compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.0.5'
-
-    testCompile group: 'junit', name: 'junit', version: '4.8.2'
-    testCompile group: 'org.mockito', name: 'mockito-core', version: '1.9.0'
     compile 'org.seleniumhq.selenium:selenium-server:2.37.1'
-    testCompile 'org.seleniumhq.selenium:selenium-java:2.37.1'
     compile files('./lib/monte-cc.jar')
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.0.13'
+    compile group: 'ch.qos.logback', name: 'logback-core', version: '1.0.13'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.5'
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '1.9.0'
+    testCompile 'org.seleniumhq.selenium:selenium-java:2.37.1'
 }
 
 war {
