@@ -11,6 +11,7 @@ import java.io.File;
 
 import static org.junit.Assert.assertEquals;
 
+@Ignore
 public class ScreenshotTakerTest {
 
     public static final String ANY_FILEPATH = "/Users/hien/Downloads/screen.png";
