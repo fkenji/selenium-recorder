@@ -23,7 +23,7 @@ public class VideoNotifier {
         }
 
 
-        String notifyUrl = "http://localhost:8080/selenium-recorder/start.groovy";
+        String notifyUrl = String.format("http://%s:8080/selenium-recorder/start.groovy", hostAddress);
 
         logger.info("Headed to {}", notifyUrl);
 
