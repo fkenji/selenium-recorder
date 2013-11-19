@@ -4,7 +4,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
 
-@Ignore
 public class SimpleSeleniumTest extends RemoteSeleniumBackedTest {
 
     @Test
@@ -13,6 +12,7 @@ public class SimpleSeleniumTest extends RemoteSeleniumBackedTest {
         webdriver.findElement(By.cssSelector("#gbqfq")).sendKeys("bulls");
 
         Thread.sleep(5000L);
+        org.junit.Assert.fail();
     }
 
 }
