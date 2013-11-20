@@ -4,3 +4,4 @@ dist/
 out/
 .gradle/
 .idea/
+.DS_Store
