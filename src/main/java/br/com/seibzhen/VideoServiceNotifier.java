@@ -54,7 +54,7 @@ public class VideoServiceNotifier {
         if (hostAddress == null) {
             return;
         }
-        String notifyUrl = "http://localhost:8080/selenium-recorder/stop.groovy";
+        String notifyUrl = String.format("http://%s:8080/selenium-recorder/stop.groovy",hostAddress);
 
         logger.info("Headed to {}", notifyUrl);
 
@@ -77,7 +77,7 @@ public class VideoServiceNotifier {
         if (hostAddress == null) {
             return;
         }
-        String notifyUrl = "http://localhost:8080/selenium-recorder/destroy.groovy";
+        String notifyUrl = String.format("http://%s:8080/selenium-recorder/destroy.groovy",hostAddress);
 
         logger.info("Headed to {}", notifyUrl);
 
@@ -98,7 +98,7 @@ public class VideoServiceNotifier {
 
     public File downloadVideo(String hostAddress, String videoName) throws IOException {
 
-        String videoURL = String.format("http://%s/movies/%s.avi", hostAddress, videoName);
+        String videoURL = String.format("http://%s/%s.avi", hostAddress, videoName);
 
         logger.info("Downloading video at {}", videoURL);
 

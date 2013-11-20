@@ -22,6 +22,8 @@ Todo
 
 Internals:
 
+    -> Destroy doesnt work because of fixed filepath
+
     -> Refactor RemoteSeleniumBackedTest
         -> Better way to handle selenium sessionIds
         -> Revise if ScreenshotTaker, GridNodeLocator and so forth need to receive params through constructor

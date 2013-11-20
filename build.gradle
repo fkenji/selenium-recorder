@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.0.5'
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.2.0'
     compile 'org.seleniumhq.selenium:selenium-server:2.37.1'
     compile files('./lib/monte-cc.jar')
     compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.0.13'
