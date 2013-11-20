@@ -5,17 +5,18 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.Augmenter;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
 
+import static br.com.seibzhen.FileUtils.*;
+
 public class ScreenshotTaker {
 
     private static final String SCREENSHOT_FILE_EXTENSION = ".png";
-    private static final String PACKAGE_CLASS_SEPARATOR = ".";
+
     private WebDriver driver;
 
     private Logger logger = LoggerFactory.getLogger(ScreenshotTaker.class);
@@ -46,7 +47,4 @@ public class ScreenshotTaker {
         return takeAs(folderNameBasedOn(clazz) + File.separator + fileName + SCREENSHOT_FILE_EXTENSION);
     }
 
-    private String folderNameBasedOn(Class clazz) {
-        return clazz.getPackage().getName() + PACKAGE_CLASS_SEPARATOR + clazz.getSimpleName();
-    }
 }

@@ -32,7 +32,9 @@ task copyWar(type: Copy, dependsOn:'war') {
     into '/opt/jetty/webapps'
 }
 
+/* not needed for now, focusing on JUnit Rule based approach
 task copyJar(type: Copy, dependsOn:'jar') {
     from 'build/libs/selenium-recorder.jar'
     into '/opt/selenium-server'
 }
+*/

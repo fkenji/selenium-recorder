@@ -55,7 +55,7 @@ public class GridNodeLocator {
         Matcher matcher = urlPattern.matcher(nodeAddress);
         String cleanAddress = "";
         while (matcher.find()) {
-            cleanAddress = matcher.group();
+            cleanAddress = matcher.group(1);
         }
         return cleanAddress;
     }

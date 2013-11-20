@@ -16,7 +16,7 @@ class VideoRecorderTest {
 
     @Test
     void itShouldRecordWhenStarted() {
-        recorder.startRecording();
+        recorder.startRecording(null);
 
         Thread.sleep(10000L);
 
