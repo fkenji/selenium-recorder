@@ -1,10 +1,12 @@
 Selenium-recorder
 ===
 
-This is a simple groovlet based project that provides basic controls for video recording on a single selenium-node
+This is a simple prototype of a groovlet-based project that provides basic controls for video recording of JUnit-based integration tests on a single selenium-node.
 
+The way the it is implemented is by deploying to each selenium-grid node a webservice that records the actual screen.
+By hooking up into JUnit rules, we're able to query the selenium-grid hub as to where the actual test is running on, allowing us to tell the video recording webservice when it should start and stop.
 
-
+After testing is done, we download the created video and save it as a surefire-reports folder.
 
 
 Todo
@@ -12,12 +14,7 @@ Todo
 
 -> Simple way to run jar
 
--> Record videos through VLC?
-
-
-
-\vlc\vlc.exe screen:// :screen-fps=4  :sout=#transcode{vcodec=h264,venc=x264{profile=baseline,level=3.0,nocabac,nobframes,ref=1},deinterlace,vb=200,scale=1}:file{dst='tmp\test_result_video.mp4'}
-
+-> Record videos through VLC
 
 
 Internals:
